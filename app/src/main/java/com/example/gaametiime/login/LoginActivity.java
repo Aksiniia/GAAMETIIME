@@ -1,14 +1,16 @@
-package com.example.gaametiime;
+package com.example.gaametiime.login;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class SIgnInActivity extends AppCompatActivity {
+import com.example.gaametiime.R;
+
+public class LoginActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sign_in);
+        setContentView(R.layout.activity_login);
     }
 }

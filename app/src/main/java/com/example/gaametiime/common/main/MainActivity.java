@@ -1,4 +1,4 @@
-package com.example.gaametiime.common;
+package com.example.gaametiime.common.main;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,7 +8,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager2.widget.ViewPager2;
 
 import com.example.gaametiime.R;
-import com.example.gaametiime.SIgnInActivity;
+import com.example.gaametiime.login.SIgnInActivity;
+import com.example.gaametiime.common.adapter.ViewPagerAdapter;
 
 public class MainActivity extends AppCompatActivity {
 

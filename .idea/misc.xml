@@ -5,6 +5,7 @@
       <map>
         <entry key="app/src/main/res/drawable/ic_slider_dots.xml" value="0.345" />
         <entry key="app/src/main/res/font/font.xml" value="0.5969230769230769" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.5760416666666667" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.5619791666666667" />
         <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.5760416666666667" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.375" />

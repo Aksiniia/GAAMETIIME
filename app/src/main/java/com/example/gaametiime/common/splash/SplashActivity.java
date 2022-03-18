@@ -1,4 +1,4 @@
-package com.example.gaametiime.common;
+package com.example.gaametiime.common.splash;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,6 +7,7 @@ import android.os.Handler;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.gaametiime.R;
+import com.example.gaametiime.common.main.MainActivity;
 
 public class SplashActivity extends AppCompatActivity {
 

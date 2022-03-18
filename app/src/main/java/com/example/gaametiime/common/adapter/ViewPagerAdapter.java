@@ -1,4 +1,4 @@
-package com.example.gaametiime.common;
+package com.example.gaametiime.common.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;

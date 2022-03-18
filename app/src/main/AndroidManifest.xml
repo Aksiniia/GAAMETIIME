@@ -12,10 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GAAMETIIME">
         <activity
-            android:name=".SIgnInActivity"
+            android:name=".login.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".common.SplashActivity"
+            android:name=".login.SIgnInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".common.splash.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,8 +27,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".common.MainActivity"
-            android:exported="true"></activity>
+            android:name=".common.main.MainActivity"
+            android:exported="true" />
     </application>
 
 </manifest>
