@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/onb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/onboarding_1"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/onb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/onboarding_2"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/onb3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/onboarding_3" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:text="Get Paid! Playing Video Game"
+        android:textColor="#FA5075"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/descr1"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="160dp"
+        android:fontFamily="@font/poppins_regular"
+        android:gravity="center"
+        android:text="Earn points and real cash when you win a battle with no delay in cashing out"
+        android:textColor="#030303"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="100dp"
+        android:fontFamily="@font/poppins_regular"
+        android:onClick="toSignIn"
+        android:text="Skip"
+        android:textColor="#FA5075"
+        android:visibility="gone" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/but"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="80dp"
+        android:elevation="10dp"
+        android:fontFamily="@font/poppins_regular"
+        android:onClick="toSignInfromBtn"
+        android:text="Let’s Combat!"
+        android:textAllCaps="false"
+        android:visibility="gone"
+        app:cornerRadius="16dp" />
+</FrameLayout>

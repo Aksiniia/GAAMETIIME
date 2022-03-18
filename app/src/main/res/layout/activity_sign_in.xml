@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SIgnInActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingHorizontal="50dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/sign_in_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Create Account"
+            android:textColor="#FA5075"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Hi, kindly fill in the form to proceed combat"
+            android:textColor="#030303"
+            android:textSize="12dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#FF6480"
+            android:hint="Full name"
+            android:inputType="textPersonName"
+            android:paddingBottom="14dp"
+            android:textColorHint="#030303"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#FF6480"
+            android:hint="User Name"
+            android:inputType="textPersonName"
+            android:paddingBottom="14dp"
+            android:textColorHint="#030303"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#FF6480"
+            android:hint="Your Phone"
+            android:inputType="phone"
+            android:paddingBottom="14dp"
+            android:textColorHint="#030303"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#FF6480"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:paddingBottom="14dp"
+            android:textColorHint="#030303"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#FF6480"
+            android:drawableEnd="@drawable/eye"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingEnd="20dp"
+            android:paddingBottom="14dp"
+            android:textColorHint="#030303"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#FF6480"
+            android:drawableEnd="@drawable/eye"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:paddingEnd="20dp"
+            android:paddingBottom="14dp"
+            android:textColorHint="#030303"
+            android:textSize="14dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="224dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginTop="40dp"
+            android:elevation="10dp"
+            android:text="Create Account"
+            android:textAllCaps="false"
+            app:cornerRadius="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Connect With:"
+            android:textColor="#FA5075"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Already have an account?"
+            android:textColor="#030303"
+            android:textSize="14dp" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="50dp"
+                android:src="@drawable/google" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginStart="50dp"
+                android:src="@drawable/facebook" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Login"
+            android:textColor="#FA5075"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+</ScrollView>
